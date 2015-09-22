@@ -11,8 +11,12 @@ Usage:
 ./classpagescrape.py username password courseurl
 
 * Scrips:
-These are random scripts that run through jss. They bind computers to servers, add printers, disable notifications, and several other things. What they all do should be fairly obvious.
+These are random scripts that run through jss. They bind computers to servers, add printers, disable notifications, and several other things. What they all do should be fairly obvious. They all require root, which is okay as jss runs them as root. They can all be run manually like this:
+
+Usage:
+chmod u+x script
+sudo ./script
 
 * extension_attribute_scripts
-These are random scripts that I wrote that run through jss's extension attributes features. They run some actions, collect the results, and then feed the results to jss. The results then turn into new attributes for computers (e.g. Does the machine have excel properly installed?). The results are alwalys enclosed in a command that looks like this: "echo "<result> result goes here <\result>""
+These are random scripts that I wrote that run through jss's extension attributes features. They run some actions, collect the results, and then feed the results to jss. The results then turn into new attributes for computers (e.g. Does the machine have excel properly installed?). The results are alwalys enclosed in a command that looks like this: "echo "<result> result goes here <\result>"" These can also be run manually.
 
