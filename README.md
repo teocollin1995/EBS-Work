@@ -14,7 +14,9 @@ Usage:
 These are random scripts that run through jss. They bind computers to servers, add printers, disable notifications, and several other things. What they all do should be fairly obvious. They all require root, which is okay as jss runs them as root. They can all be run manually like this:
 
 Usage:
+
 chmod u+x script
+
 sudo ./script
 
 * extension_attribute_scripts
